@@ -1,0 +1,15 @@
+This test case carries out the following checks:
+ 1. Hashtags are treated as case-sensitive. 
+ The first tweet contains two hashtags namely, insight and Insight. These two hashtags should form two separate nodes with an each having a degree of 1 and an edge formed as shown below: 
+ insight<-->Insight
+ Therefore, the average degree of 1.00 should be output
+	
+ 2. The 60-second window is exclusive. 
+ The second tweet has a created_at value of "Thu Nov 05 05:06:10 +0000 2015" which when this tweet is processed becomes the maximum created_at value. Now the first tweet is exactly 60 second behind the second tweet and it should be evicted. If the window was inclusive the edges formed would be 
+ insight<-->Insight
+ Insight<-->SiliconValley
+ But since the window is exclusive, the edge insight<-->Insight would be removed from the graph and the new edge Insight<-->SiliconValley would take its place.
+ The average degree would therefore remain unchanged at 1.00
+ 
+ 3. Empty hashtag values don't affect the graph but the average degree is still written to the file for this tweet.
+ The third tweet in the input file contains an empty hashtags field. This should not add any new nodes to the graph however the current rolling average_degree should be written to the output file. Therefore, a value of 1.00 will be written to the output.txt file

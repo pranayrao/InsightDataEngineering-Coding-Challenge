@@ -3,15 +3,21 @@
 #Challenge Summary
 Calculate the average degree of a vertex in a Twitter hashtag graph for the last 60 seconds, and update this each time a new tweet appears.
 
-I have used Python 2.7.11 for the solution to this challenge. List and Dictionaries are the data structures of choice
+I have used Python 2.7.11 for the solution to this challenge. List and Dictionaries are the data structures of choice. User defined functions have been employed
 
-#The following additional modules would be required to run the code
+#Additional Packages
+
+Please install the following:
 
 networkx 1.10
 
+pip install networkx
+
 numpy 1.10.1
 
-#Other libraries used
+pip install numpy
+
+#Other modules/libraries
 
 sys
 
@@ -32,7 +38,7 @@ time
 
 2) Ensure that average_degree.py is present in the src folder
 
-2) Type the following command in the home directory directory and press enter:
+2) Open a LINUX terminal and type the following command in the home directory directory and press enter:
 
 sh run.sh
 
@@ -53,8 +59,7 @@ The Python code does the following:
    
 5) Updates the data dictionary created earlier as it maintains the 60 second window
 
-6) Passes this updated edge list as an argument to a function that generates combinations of edges formed by hashtags present in the hashtag list in each tweet. The resulting list 
-   of tuples are then added as edges to the graph and the degree of each node is calculated using the methods available in the networkx module. The average_degree is returned by this function which is written to the output file.
+6) Passes this updated edge list as an argument to a function that generates combinations of edges formed by hashtags present in the hashtag list in each tweet. The resulting list of tuples are then added as edges to the graph and the degree of each node is calculated using the methods available in the networkx module. The average_degree is returned by this function which is written to the output file.
 
 
 #Testing:
@@ -71,6 +76,8 @@ insight_testsuite/tests/test_1/tweet_input
 
 insight_testsuite/tests/test_2/tweet_input
 
+insight_testsuite/tests/test-2-tweets-all-distinct/tweet_input
+
 
 3) Download the expected_output.txt files and store them in the respective tweet_output folder corresponding to the test (test_1 , test_2 etc.)
 
@@ -84,3 +91,5 @@ sh insight_testsuite/run_mytests.sh
 insight_testsuite/tests/test_1/tweet_output
 
 insight_testsuite/tests/test_2/tweet_output
+
+insight_testsuite/tests/test-2-tweets-all-distinct/tweet_output

@@ -3,7 +3,7 @@
 #Challenge Summary
 Calculate the average degree of a vertex in a Twitter hashtag graph for the last 60 seconds, and update this each time a new tweet appears.
 
-I have used Python 2.7.11 for the solution to this challenge
+I have used Python 2.7.11 for the solution to this challenge. List and Dictionaries are the data structures of choice
 
 #The following additional modules would be required to run the code
 

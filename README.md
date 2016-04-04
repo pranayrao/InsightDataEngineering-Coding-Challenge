@@ -72,12 +72,14 @@ insight_testsuite/tests/test_1/tweet_input
 insight_testsuite/tests/test_2/tweet_input
 
 
-3) Run the following commands:
+3) Download the expected_output.txt files and store them in the respective tweet_output folder corresponding to the test (test_1 , test_2 etc.)
+
+4) Run the following commands:
 
 sh insight_testsuite/run_mytests.sh
 
 
-The test output files will be written to :
+5) The test output files will be written to :
 
 insight_testsuite/tests/test_1/tweet_output
 

@@ -11,11 +11,11 @@ Please install the following:
 
 networkx 1.10
 
-pip install networkx
+you can use pip install networkx
 
 numpy 1.10.1
 
-pip install numpy
+you can use pip install numpy
 
 #Other modules/libraries
 

@@ -11,11 +11,11 @@ Please install the following:
 
 networkx 1.10
 
-you can use pip install networkx
+you can use 'pip install networkx'
 
 numpy 1.10.1
 
-you can use pip install numpy
+you can use 'pip install numpy'
 
 #Other modules/libraries
 
@@ -40,7 +40,7 @@ time
 
 2) Open a LINUX terminal and type the following command in the home directory directory and press enter:
 
-sh run.sh
+./run.sh
 
 3) The output will be written to tweet_output/output.txt
 
@@ -81,9 +81,9 @@ insight_testsuite/tests/test-2-tweets-all-distinct/tweet_input
 
 3) Download the expected_output.txt files and store them in the respective tweet_output folder corresponding to the test (test_1 , test_2 etc.)
 
-4) Run the following commands:
+4) Run the following commands in a terminal:
 
-sh insight_testsuite/run_mytests.sh
+./insight_testsuite/run_mytests.sh
 
 
 5) The test output files will be written to :

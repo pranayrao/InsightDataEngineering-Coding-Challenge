@@ -34,7 +34,7 @@ time
 
 #Steps to run the code:
 
-1) Place the tweets.txt file in the tweet_input folder. Note that the tweets.txt file should contain a single JSON object on each line.
+1) Place the tweets.txt file in the tweet_input folder. Note that the tweets.txt file should contain a single tweet on each line.
 
 2) Ensure that average_degree.py is present in the src folder
 

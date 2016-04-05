@@ -5,7 +5,7 @@ Calculate the average degree of a vertex in a Twitter hashtag graph for the last
 
 I have used Python 2.7.11 for the solution to this challenge. List and Dictionaries are the data structures of choice. User defined functions have been employed
 
-#Additional Packages
+#Additional Packages Required
 
 Please install the following:
 
@@ -17,7 +17,7 @@ numpy 1.10.1
 
 you can use 'pip install numpy'
 
-#Other modules/libraries
+#Other Modules/ Libraries
 
 sys
 

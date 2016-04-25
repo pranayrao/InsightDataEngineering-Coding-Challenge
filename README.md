@@ -65,30 +65,30 @@ The Python code does the following:
 
 1) The test case descriptions are present in :
 
-insight_testsuite/tests/test_1/
+testsuite/tests/test_1/
 
-insight_testsuite/tests/test_2/
+testsuite/tests/test_2/
 
 2) The test input files are present in :
 
-insight_testsuite/tests/test_1/tweet_input
+testsuite/tests/test_1/tweet_input
 
-insight_testsuite/tests/test_2/tweet_input
+testsuite/tests/test_2/tweet_input
 
-insight_testsuite/tests/test-2-tweets-all-distinct/tweet_input
+testsuite/tests/test-2-tweets-all-distinct/tweet_input
 
 
 3) Download the expected_output.txt files and store them in the respective tweet_output folder corresponding to the test (test_1 , test_2 etc.)
 
 4) Run the following commands in a terminal:
 
-./insight_testsuite/run_mytests.sh
+./testsuite/run_mytests.sh
 
 
 5) The test output files will be written to :
 
-insight_testsuite/tests/test_1/tweet_output
+testsuite/tests/test_1/tweet_output
 
-insight_testsuite/tests/test_2/tweet_output
+testsuite/tests/test_2/tweet_output
 
-insight_testsuite/tests/test-2-tweets-all-distinct/tweet_output
+testsuite/tests/test-2-tweets-all-distinct/tweet_output

@@ -139,8 +139,7 @@ def main():
     #call to function for reading data from and writing data to txt files
     tweetParser(tweettxt,outputtxt)
     
-if __name__ == '__main__':
-    main() 
+main() 
 
 print "Time taken to complete : %s seconds" % (time.time() - exec_start_time) 
 print "The output.txt file is in tweet_output folder"
